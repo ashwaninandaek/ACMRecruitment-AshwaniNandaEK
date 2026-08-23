@@ -6,6 +6,8 @@
 5. Then the number is divided by 10 to get the absolute quotient value.
 6. Repeat steps 3 to 5 until the number becomes zero.
 7. Compare the original number and reversed number, then return it.
+
+
 #Integer to Roman
 1. The 3 test cases are converted to roman numeral form.
 2. Create a dictionary with keys as the value and values as symbols.
