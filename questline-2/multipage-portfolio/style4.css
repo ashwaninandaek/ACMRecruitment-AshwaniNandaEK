@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: lightgreen;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+li {
+    margin: 8px;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 31px;
+    margin-top: 30px;
+}
