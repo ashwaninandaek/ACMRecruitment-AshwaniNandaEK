@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two Column Layout</title>
+
+    <!-- Connecting CSS file --> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🗒️My Two Column Page🗒️</h1>
+    <h2>🌟MY PROFILE PAGE🌟</h2>
+    <div class="container">
+
+        <div class="column">
+            <h2>💫About Me💫</h2>
+            <p>
+                My name is Ashwani Nanda E K. I am learning web development.
+                I like learning computers, AI, HTML and CSS.
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>✨My Skills✨</h2>
+
+            <ul>
+                <li>HTML (Basics)</li>
+                <li>CSS (Basics)</li>
+                <li>Python (Intermediate)</li>
+                <li>JavaScript (Basics)</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
