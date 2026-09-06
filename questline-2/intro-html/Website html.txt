@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightgray;
+            margin: 20px;
+        }
+
+        header {
+            background-color: green;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        section {
+            background-color: white;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        footer {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌟My Personal Profile🌟</h1>
+
+        <nav>
+            <a href="#about">💫About Me💫</a> |
+            <a href="#skills">✨My Skills✨</a> |
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>💫About Me💫</h2>
+
+            <img src="photo.jpg"
+                 alt="My Photo"
+                 draggable="false"
+                 oncontextmenu="return false">
+
+            <p>Hello, my name is Ashwani Nanda E K.</p>
+
+            <p>
+                I am a student and I am interested in computers, artificial intelligence, app
+                and web development. I am currently learning HTML,
+                CSS and other programming languages.
+            </p>
+
+            <p>
+                I like learning new things and improving my
+                technical skills.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>✨My Skills✨</h2>
+
+            <ul>
+                <li>HTML (Basics)</li>
+                <li>CSS (Basics)</li>
+                <li>Python (Intermediate)</li>
+                <li>JavaScript (Basics)</li>
+                <li>Communication (English, Malayalam, Hindi)</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 My Profile</p>
+    </footer>
+
+    <script>
+        // Disable right click
+        document.oncontextmenu = function() {
+            return false;
+        };
+    </script>
+
+</body>
+</html>
